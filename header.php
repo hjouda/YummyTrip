@@ -12,7 +12,7 @@
       <li class='active'><a href='NotreMonde.php'>Notre monde</a></li>
       <li><a href='NosDestinations.php'>Nos destinations</a>
          <ul class="sub-menu">
-            <li><a href='#'>Afrique</a></li>
+            <li><a href='#'>Afrique</a> </li>
             <li><a href='#'>Amerique</a></li>
             <li><a href='DestinationsAsie.php'>Asie</a></li>
             <li><a href='DestinationsEurope.php'>Europe</a></li>

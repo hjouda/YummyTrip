@@ -1,0 +1,23 @@
+
+CHANGER LES POLICES PARTOUT
+
+MORPHING - Redimensioner le fond + toutes les categories du menu (si faisable)
+
+FOOTER
+
+PAGE NOS DESTINATIONS - Changer les icons dans le timeline, changer la couleur du fond pour les images, changer les images, inserer du text, changer les titres 
+
+PAGE CONTACT
+	
+PAGE NOS YUMMY TRIPS
+
+FORMULAIRE
+
+PHOTOS POUR LES PAGES NosDestinations_Afrique et NosDestinations_Amerique
+
+PAGE NOTRE MONDE - Espace entre slogan et lien
+
+VERIFIER TOUS LES ESPACES - PADDING/ MARGINS
+
+
+
