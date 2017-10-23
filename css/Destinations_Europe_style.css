@@ -1,0 +1,209 @@
+@font-face{
+    font-family: Oswald Stencil;
+    src: url('../fonts/Oswald-Stencil.ttf');
+}
+
+
+
+body{
+    background-color: #fef2e4;
+}
+
+#logo{
+    width:400px;
+/*    align-self: baseline;*/
+    background-color: #fef2e4;
+    height:100px;
+    
+}
+
+#europe{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.leftImage, .rightImage{
+    display:flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    align-content: center;
+/*    border: 2px solid black;*/
+}
+
+.leftImage>div, .rightImage>div{
+    display:flex;
+    justify-content: space-between;
+/*    border: 2px solid black;*/
+}
+
+
+.leftImage>div>article>p, .rightImage>div>article>p{
+    padding-right: 60px;
+    font-family: 'Source Sans Pro';
+    text-align: justify;
+    color: #454240;
+    margin:0;   
+}
+.leftImage>div>article>p{
+    padding-right:45px;
+}
+
+.rightImage>div>article>p{
+    padding-left:45px;
+}
+
+
+.leftImage>div>article,.rightImage>div>article{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;  
+    width: 450px;
+    height: 300px;
+}
+
+.leftImage>div>article{
+    align-self: center;
+    box-shadow: -14px 11px 19px -1px rgba(199,197,199,0.63);
+    display:flex;
+    flex-direction: column;
+    height: 450px;
+    
+    
+}
+
+.rightImage>div>article{
+    box-shadow: 10px 11px 19px -1px rgba(199,197,199,0.63);
+    align-self: center;
+    display:flex;
+    flex-direction: column;
+    height: 450px;
+
+}
+#europe>div{
+    background-image: url(../images/Spices2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    border: 2px solid black;*/
+    height: 350px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#europe>div>h1{
+    font-family:'Oswald Stencil';
+    color:white;
+    align-self: center;
+    padding: 40px;
+    text-align:center;
+    align-self: center;
+    font-size: 300%;    
+}
+
+#descriptionEurope{
+    display:flex;
+    flex-direction: column;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-top:30px;
+    margin-bottom: 120px;  
+       
+}
+
+#descriptionEurope>h2{
+    align-self: center;
+    font-family: 'Source Sans Pro';
+    font-size:200%;
+    color: #7f152e;
+}
+
+#descriptionEurope>p{
+    font-family: 'Source Sans Pro';
+    padding:5px;
+    margin:0;
+}
+
+
+
+.leftImage>div>article>h3, .rightImage>div>article>h3{
+    font-family:'Oswald Stencil';
+    font-size: 200%;
+    padding: 10px;
+    padding-left:0;
+    color: #fa812f;   
+}
+
+.rightImage>div>article>h3{
+    padding-left:40px;
+}
+
+
+.leftImage>div>article>a, .rightImage>div>article>a{
+    text-decoration: none;
+    align-self: center;
+    margin-top: 10px;
+    padding:10px;
+    margin-right:20px;
+    font-family: 'Source Sans Pro';
+    font-size: 120%;
+    font-size: bolder;
+    color: #fa812f;
+    display:flex;
+}
+
+.leftImage>div>article>a{
+    align-self: flex-start;
+    
+}
+
+.rightImage>div>article>a{
+     align-self: flex-end;
+    
+}
+
+
+.leftImage>div>article>a>i, .rightImage>div>article>a>i{
+    padding-right: 10px;   
+}
+
+
+
+
+
+
+
+/*MOBILE*/
+
+@media only screen and (max-width: 500px){
+    .leftImage>div, .rightImage>div{
+    display:flex;
+    flex-direction: column;
+    width: 99%;
+}
+    
+    .leftImage>div>img, .rightImage>div>img{
+    width: 99%;
+    height:auto;
+        padding-top: 50px;
+    }
+    .leftImage>div>article,.rightImage>div>article{
+    padding-top: 50px;
+/*    padding-left: 30px;*/
+    padding-right: 0;  
+
+    width: 99%;
+    height: 500px;
+}
+    .leftImage, .rightImage{
+    width: 99%;
+    justify-content: center;
+    align-content: center;
+    }
+       
+}
+
