@@ -1,0 +1,235 @@
+@font-face {
+    src: url(Oswald-Stencil.ttf);
+    src: url(Oswald-Bold.ttf);
+}
+
+body{
+    background-color: #fef2e4;
+}
+
+
+
+/*MAIN STYLE*/
+#monde{
+    width: 100%;
+}
+
+#monde>div>div{
+    background-image: url(../images/fondH13.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#monde>div>div>h1{
+    font-family: 'Oswald Stencil';
+    color: white;
+    font-size: 400%;
+    padding-bottom: 40px;
+}
+
+#monde>div>div>h2{
+    font-family: 'Oswald Bold';
+    color: white;
+    font-size:300%;
+}
+
+#monde>div>div>h2>span{
+    color: #ED1C24;
+}
+
+#monde>div>div>a{
+    height:40px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: 'Oswald Heavy';
+    font-size: 150%;
+    color: #37312d;
+    border: 2px solid;
+    border-bottom-color: #7f152e;
+    border-top-color: #7f152e;
+    border-left-color: white;
+    border-right-color: white;
+    background-color: rgba(254, 242, 228, 0.7);
+    
+}
+
+#monde>div>div>a:hover{
+    color:  #fa812f;
+}
+
+/*ARTICLE STYLE*/
+
+#concept{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: #7f152e;
+    font-family: 'Source Sans Pro';
+    font-size: 120%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#concept>p{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#concept>h3{
+    font-family: 'Oswald Stencil';
+    font-size:180%;
+    
+}
+
+/* SECTION STYLE*/
+
+#instructions{
+    min-height: 800px;
+    display:flex;
+    flex-direction: column;
+    background-image:url(../images/fond7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#instructions>h2{
+    color: #7f152e;
+    align-self: center;
+    font-family: 'Oswald Stencil';
+    font-size: 180%;
+    
+}
+
+.icons{
+    width: 100px;
+    height: 100px;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    box-shadow: 10px 11px 5px 0px rgba(133,121,128,0.5);
+/*    border-radius: 50%;*/
+   
+}
+
+.description>p{
+    width: 400px;
+    color: #7f152e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Source Sans Pro';
+    font-size: 120%;
+    
+}
+
+#instructions>div:nth-child(2), #instructions>div:nth-child(4){
+
+   margin-bottom: 30px;
+   margin-left: 70px;
+   align-self: flex-start;
+   margin-top: 60px;
+   height: 200px;
+   background-color: rgba(254, 242, 228, 0.7);
+   z-index: 88;  
+}
+
+#instructions>div:nth-child(3), section>div:nth-child(5){
+    margin-bottom: 30px;
+    align-self: flex-end;
+    margin-right: 70px;
+    margin-top: 30px;
+    height: 200px;
+    background-color: rgba(254, 242, 228, 0.7);
+
+}
+
+/*SECTION NOTRE EQUIPE STYLE*/
+
+section#team{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 150px;
+}
+
+.personne{
+    display:flex;
+    flex-direction: column;
+    box-shadow: 10px 11px 5px 0px rgba(133,121,128,0.5);
+/*    border-radius: 50%;*/
+    min-height:500px;
+    width: 200px;
+    padding: 25px;
+    
+}
+
+.personne>img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    align-self: center;
+    
+}
+
+.personne>p{
+    text-align: justify;
+    color: #302c2e;
+    font-family: 'Source Sans Pro';
+}
+
+#socialmedia{
+    width: 50%;
+    display:flex;
+    justify-content: space-around;
+    align-self: center;
+    color: #7f152e;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
