@@ -1,21 +1,24 @@
 
-CHANGER LES POLICES PARTOUT
+CHANGER LES POLICES PARTOUT (oswald stencil pour les titres et le texte Source sans pro)
 
-MORPHING - Redimensioner le fond + toutes les categories du menu (si faisable)
+(HOUDA)MORPHING - Redimensioner le fond + toutes les categories du menu (si faisable)
+(HOUDA)Débugger le bouton hamburger du menu 
 
-FOOTER
+(HOUDA)PAGE NOS DESTINATIONS - Changer les icons dans le timeline, changer la couleur du fond pour les images, changer les images, inserer du text, changer les titres 
 
-PAGE NOS DESTINATIONS - Changer les icons dans le timeline, changer la couleur du fond pour les images, changer les images, inserer du text, changer les titres 
-
-PAGE CONTACT
+(HOUDA)PAGE CONTACT
 	
-PAGE NOS YUMMY TRIPS
+(RALUCA)PAGE NOS YUMMY TRIPS
 
-FORMULAIRE
+(RALUCA)FORMULAIRE
 
-PHOTOS POUR LES PAGES NosDestinations_Afrique et NosDestinations_Amerique
+(DONE)PHOTOS POUR LES PAGES NosDestinations_Afrique et NosDestinations_Amerique
+(RALUCA)page d'une destination pour un pays au choix
 
-PAGE NOTRE MONDE - Espace entre slogan et lien
+(CLEM)PAGE NOTRE MONDE - Espace entre slogan et lien decouvrir notre destination: positionnement à changer avant description  _+ titre d'introdution partie "equipe"
+bouton back to top
+(CLEM)FOOTER chercher un bon footer 
+
 
 VERIFIER TOUS LES ESPACES - PADDING/ MARGINS
 
