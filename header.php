@@ -14,8 +14,8 @@
          <ul class="sub-menu">
             <li><a href='#'>Afrique</a> </li>
             <li><a href='#'>Amerique</a></li>
-            <li><a href='Destinations_Asie.php'>Asie</a></li>
-            <li><a href='Destinations_Europe.php'>Europe</a></li>
+            <li><a href='DestinationsAsie.php'>Asie</a></li>
+            <li><a href='DestinationsEurope.php'>Europe</a></li>
          </ul>
       </li>
       <li><a href='#'>Nos Yummy Trips</a></li>
